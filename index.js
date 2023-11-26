@@ -14,7 +14,7 @@ const app = express();
 const PORT = 3000;
 const jokeURL = "https://v2.jokeapi.dev/joke/Misc";
 const ggtransURL = "";
-const ggtransApiKey = "AIzaSyAq3sX6R6nGoJQVylWB-ML6mFjWUsVZA6w";
+const ggtransApiKey = "xxxxxxx";
 var translatedQuestion;
 var translatedAnswer;
 var currentLang = "en";
