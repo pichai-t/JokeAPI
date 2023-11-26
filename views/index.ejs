@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes of the day! in 4 languages </title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Jokes of the day! </h2>
+        <form method="post">
+        <input type="text" name="question" value="<%= question %>"> <br>
+        <input type="text" name="answer" value="<%= answer %>" > <br>
+        <button formaction="/en" >English</button>
+        <button formaction="/ch" >Chinese</button>
+        <button formaction="/es" >Spanish</button>
+        <button formaction="/th"  >Thai</button>
+        </form>
+    </div>
+</body>
+</html>
